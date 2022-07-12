@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html>
+    <head> <title> My Awesome FOOd Store  </title>
+    <link href="./css/style.css" rel="stylesheet" type="text/css"> 
+    <!-- font-awesome cdn -->
+    <script src="https://kit.fontawesome.com/baeddb052f.js" crossorigin="anonymous"></script>    <!-- animate.css cdn -->
+    <link
+    type="text/css"
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    
+    </head>
+   
+    <body>
+            <header id = "topbar" class="topbar" onclick="fun()">
+                <div class="container justify-between flex">
+                    <div  class="icons">
+                        <a href="#" ><img id="fb" src="./icons/facebook.svg"> </a>
+                        <a href="#" ><img src="./icons/twitter.svg"> </a>
+                        <a href="#" ><img src="./icons/google.svg"> </a>
+                        <a href="#" ><img src="./icons/instagram.svg"> </a>
+                        <a href="#" ><img src="./icons/search.svg"> </a>
+
+                    </div>
+
+                    <div class="auth flex justify-between items-center">
+                        <div>
+                            <a href="#"> <img src="./icons/user-icon.svg"> Log in</a>
+                        </div>
+                        <span class="divider">|</span>
+                    
+                        <div>
+                            <a href="#"> <img src="./icons/edit.svg"> Register Now</a>
+                        </div>
+                        <span class="divider">|</span>
+                    
+                        <div>
+                            <a href="#"> <img src="./icons/cart.svg">0 item -(%0.00)</a>
+                        </div>
+                        <span class="divider">|</span>
+                    </div>
+                </div>
+
+
+
+            </header>
+
+            <nav>
+                <div  class="top">
+                    <div class="container">
+                        <div class="contact flex items-center">
+                            <img src="./icons/phone.svg">
+                            
+                            <div>
+                                <h5 id="call" class = "moiz" onclick="fun()">Call us  +9200000000</h5>
+                                <h6> email us amoiz.3149@gmail.com</h6>
+                            </div>
+                        </div>
+                    
+                    
+                        <div class="branding call"  onclick="Fill()">
+                            <img src="./icons/logo.svg">
+                        </div>
+                        
+                        
+                        
+                        <div class="time flex items-center">
+                            <img src="./icons/clock.svg">
+                            
+                            <div>
+                                <h5>Checking hours</h5>
+                                <h6>Mon to Sat(9:00am to 12:00am)</h6>
+                            </div>
+                        </div>
+
+                        <div class="hamwrapper">
+                            <i class="hamburger fas fa-bars"></i>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                
+
+                <div class="navbar">
+                    <div class="container">
+                        <div class="cross">
+                            <i class="crossicon fas fa-times"></i>
+                        </div>
+                        
+                        <div class="nav-anchors">
+                            <a href="#Home" >Home</a>
+                            <a href="#About" >About us</a>
+                            <a href="#Contact" >Contact</a>
+                            <a href="#Blog" >Blog</a>
+                            <a href="#Deal" >Deals</a>
+                            <a href="#Service">Service</a>
+                            <a href="#News" >Newsletter</a>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+
+
+
+            <header class="hero flex items-center" id="Home">
+                <div class="container">
+                  <div class="strawside">
+                        <div class="welcome flex items-center">
+                            <span> Welcome to </span>
+                            <img src="../icons/logo-2.svg">
+                        
+                        </div>   
+                        
+                        <h1>The World Best <span> Shipping </span> Website</h1>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                        
+                        <div>
+                            <button class="btn btn-primary" id="thirdway" onclick="fun()">Read more</button>
+                        
+                            <button class="btn btn-sec">Shop now</button>
+
+                        </div>
+                  </div>
+
+                    <div  class="straw">
+
+                        <img src="./images/straw.png">
+    
+                    </div>
+
+
+                    
+
+                </div>
+
+                
+
+
+            </header>
+
+
+            <section class="about-meal" id="About">
+                <div class="container">
+
+                    <h1 class="section-heading">About Me</h1>
+                    <div class="about-meal-wrap  flex justify-between">
+                        <div class="yogurtimg">
+                            <img src="./images/yogurt.png">
+                        </div>
+
+                        <div class="about-data">
+                                <h2>Fresh meal is a lond established fact that a reader will be distracted</h2>
+                                <p>Fresh meal is a place of great food and desert Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+
+                                <button class="btn btn-sec">Read more</button>
+                        </div>
+
+                    </div>
+                </div>               
+            </section>
+
+             <section class="our-services" id="Service">
+                    <div class="container">
+
+                        <h1 class="section-heading">Our Services</h1>
+                    </div>
+
+                    <div class="card-wrapper">
+                        <div class="container flex">
+                            <div class="service-card card-1">
+                            
+
+                                <img class="icon" src="./icons/transport.svg">
+                                <h2>Free Home Delivery</h2>
+                                <p>Lorem Ipsum has been the industry's standard dummy text</p>
+                                <button class="btn btn-sec">Read more</button>
+                            </div>
+                            
+                            
+                            <div class="service-card card-2">
+                            
+
+                                <img class="icon" src="./icons/bag.svg">
+                                <h2 class="days">30 Days Return Services</h2>
+                                <p>Lorem Ipsum has been the industry's standard dummy text</p>
+                                <button class="btn btn-primary">Read more</button>
+                            </div>
+                           
+                           
+                            <div class="service-card card-3">
+                            
+
+                                <img class="icon" src="./icons/usd.svg">
+                                <h2>Money Back Guaranted</h2>
+                                <p>Lorem Ipsum has been the industry's standard dummy text</p>
+                                <button class="btn btn-sec">Read more</button>
+                            </div>
+
+                            
+                                    
+
+
+                               
+
+
+                            
+
+                            
+                        
+                        
+                        
+                        </div>
+
+                        
+
+
+                    </div>
+
+                </section>
+
+             <section class="big-deal" id="Deal">
+                    <div class="container">
+                        <h1 class="section-heading text-pure"> Big deals of the week </h1>
+
+                        <div class="timer flex justify-center items-center">
+                            <div>
+                                
+                                <span>02 </span>
+                                <span>Days</span>
+                            
+                            </div>
+
+                            
+                            <div>
+                                <span>21 </span>
+                                <span>Hours</span>
+
+                            </div>
+                           
+                           
+                           
+                           
+                            <div>
+                                <span>50 </span>
+                                <span>Minutes</span>
+
+                            </div>
+                           
+                           
+                           
+                           
+                            <div>
+                                <span>30 </span>
+                                <span>sec</span>
+
+                            </div>
+                        </div>
+
+                    </div>
+                
+                </section>
+
+                <section class="latest-news" id="Blog">
+
+                    <div class="container">
+
+                        <h1 class="section-heading">Latest News from Blog</h1>
+
+                        <div class="article-wrapper flex">
+                            
+                            <article class="card">
+
+                                <div class="card-img">
+
+                                    <img src="./images/donut.jpg">
+
+                                </div>
+
+                                <div class="card-content">
+
+                                        <div class="post-meta flex justify-between">
+                                            
+                                            <span> jan 03,2020</span>
+                                                 
+                                            <div>  
+                                                    
+                                                <span>posted by <strong> Fresh Meal</strong> </span>
+                                                <span class="comment-count"> 12 comments</span>
+                                                
+                                            </div>   
+                                                 
+
+                                        </div>
+
+                                        <h2> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
+
+                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution</p>
+
+                                </div>
+
+
+                            </article>
+                            
+                            
+                            <article class="card">
+
+                                <div class="card-img">
+
+                                    <img src="./images/coffee.jpg">
+
+                                </div>
+
+                                <div class="card-content">
+
+                                        <div class="post-meta flex justify-between">
+                                            
+                                            <span> jan 03,2020</span>
+                                                 
+                                            <div>  
+                                                    
+                                                <span>posted by <strong> Fresh Meal</strong> </span>
+                                                <span class="comment-count"> 12 comments</span>
+                                                
+                                            </div>   
+                                                 
+
+                                        </div>
+
+                                        <h2> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
+
+                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution</p>
+
+                                </div>
+
+
+                            </article>
+
+
+                        </div>
+                        
+                        <div class="btn-wrapper">
+                           
+                            <button class="btn btn-sec">View All</button>
+
+                        </div>
+                            
+                    </div>
+
+
+
+                </section>
+
+                <section class="subscribe" id="News">
+                    <div class="container flex justify-between items-center">
+                       <div class="img">
+                        
+                            <img src="./images/rasberry.png">
+
+                       </div>
+
+                       <div>
+                            <h1>Subscribe to our Newsletter</h1>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution</p>
+
+                            <div class="input-wrapper">
+                                <input type="email" placeholder="email@freshmail.com">
+                                <button> Subscribe </button>
+
+                            </div>
+
+                       </div>
+                        
+
+
+
+
+
+                    </div>
+
+
+
+                </section>
+
+                <section class="contact-us flex" id="Contact">
+
+                    <div class="contact-info-wrapper">
+
+                        <h1 class="section-heading">Contact Us</h1>
+
+                        <div class="contact-info">
+
+                            <div>
+                                <div>
+                                    
+                                    <img src="./icons/phone-2.svg">
+                                
+                                </div>
+                                
+    
+                                <div>
+                                    <span> Call Us:</span>
+                                    <span> +9200000000</span>
+                                </div>
+
+                            </div>
+                            
+                            
+                           
+                            
+                            
+                            <div>
+                                <div>
+                                    
+                                    <img src="./icons/bag-2.svg">
+                                
+                                </div>
+    
+                                <div>
+                                    <span> Email:</span>
+                                    <span> amoiz.3149@gmail.com</span>
+                                </div>
+
+                            </div>
+
+                            <div>
+
+                                <div>
+                                    
+                                    <img src="./icons/clock-2.svg">
+                                
+                                </div>
+
+                                <div>
+                                    <span> Checking hours:</span>
+                                    <span> Mon to Sat(9:00am to 12:00am)
+                                    </span>
+                                </div>
+
+                            </div>
+
+                        </div>
+                       
+
+
+                    </div>
+
+                    <div class="map">
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1785100243064!2d55.272187714327224!3d25.19720183788511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2sBurj%20Khalifa!5e0!3m2!1sen!2s!4v1608921844708!5m2!1sen!2s" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+
+                    </div>
+
+
+                </section>
+
+                <footer>
+                    <div class="container flex">
+
+                        <div class="box">
+
+                                <h3> About me </h3>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution</p>
+
+                                <button class="btn btn-sec">Read more</button>
+
+
+                        </div>
+                        <div class="box">
+
+                            <h3> Quick Links </h3>
+
+                            <ol>
+                                <a href="#"> 
+                                    
+                                    <li> Home</li>
+                                
+                                </a>
+                                
+                                
+                                <a href="#"> 
+                                    
+                                    <li> Gallery</li>
+                                
+                                </a>
+                                
+                                
+                                <a href="#"> 
+                                    
+                                    <li> Product</li>
+                                
+                                </a>
+                                
+                                
+                                <a href="#"> 
+                                    
+                                    <li> Blog</li>
+                                
+                                </a>
+                               
+                               
+                                <a href="#"> 
+                                    
+                                    <li>Services</li>
+                                
+                                </a>
+                                
+                
+
+
+                            </ol>
+
+                        </div>
+                        <div class="box">
+
+                            
+                            <h3> Follow Us </h3>
+
+                            <ol>
+                                <li> 
+                                    <a href="#"> 
+                                      <img src="./icons/facebook.svg" > 
+                                       
+                                      <span>Facebook</span>
+                                    
+                                    </a>
+                                </li>
+                                
+                                <li> 
+                                    <a href="#"> 
+                                      <img src="./icons/twitter.svg" > 
+                                       
+                                      <span>Twitter</span>
+                                    
+                                    </a>
+                                </li>
+                                
+                                
+                                <li> 
+                                    <a href="#"> 
+                                      <img src="./icons/instagram.svg" > 
+                                       
+                                      <span>Instagram</span>
+                                    
+                                    </a>
+                                </li>
+                               
+                                <li> 
+                                    <a href="#"> 
+                                      <img src="./icons/google.svg" > 
+                                       
+                                      <span>Google</span>
+                                    
+                                    </a>
+                                </li>
+                                
+                                
+                                
+
+                            </ol>
+
+
+
+
+
+                        </div>
+
+                       
+
+                        </div>
+
+
+
+                    </div>
+
+
+                </footer>    
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="jquery/jquery.js"></script>
+</html>
